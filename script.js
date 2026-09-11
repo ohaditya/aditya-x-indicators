@@ -1,0 +1,1 @@
+document.querySelectorAll('.faq-item button').forEach(btn=>btn.addEventListener('click',()=>{const item=btn.parentElement;const open=item.classList.toggle('open');btn.setAttribute('aria-expanded',open?'true':'false');btn.querySelector('span').textContent=open?'⌃':'⌄'}));
